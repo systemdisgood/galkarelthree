@@ -1,5 +1,5 @@
-CC = gcc
-CFLAGS = -Wall -pedantic -std=c11
+CC = g++
+CFLAGS = -Wall -pedantic -std=c++11
 
 BINARIES = galkarelthree
 
