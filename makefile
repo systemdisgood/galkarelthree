@@ -1,7 +1,7 @@
 CC = g++
 CFLAGS = -Wall -pedantic -std=c++11
 
-BINARIES = galkarelthree
+BINARIES = galkarelthree looper
 
 SRCS = $(addsuffix .c, $(BINARIES))
 OBJS = $(addsuffix .o, $(BINARIES))
