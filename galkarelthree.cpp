@@ -59,7 +59,8 @@ int main()
                     not_bypass = true;
                     break;
                 case 'o':
-                    for(size_t cnt = 0; cnt < mem.size(); ++cnt) std::cout << mem[cnt];
+					if(not_bypass) std::cout << reg;
+					else std::cout << mem[mem_pos];
                     break;
                 case 'l':
                     std::cout << std::endl;
